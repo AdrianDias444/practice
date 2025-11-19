@@ -1,4 +1,4 @@
-def selection_short(array):
+def selection_sort(array):
     n = len(array)
 
     for i in range(n - 1):
@@ -9,6 +9,6 @@ def selection_short(array):
         array[i], array[min] = array[min], array[i]
 
 array = [0, 3, 90, 1, 7, 2, 4, 11]
-selection_short(array)
+selection_sort(array)
 for i in range(len(array)):
     print(array[i])
