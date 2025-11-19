@@ -23,7 +23,7 @@
 
 **
 
-</div align="center">
+<div align="center">
 
 
 ## Insertion Sort
