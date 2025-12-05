@@ -18,4 +18,3 @@ array = [0, 3, 90, 1, 7, 2, 4, 11]
 bubble_sort(array)
 for i in range(len(array)):
     print(array[i])
-

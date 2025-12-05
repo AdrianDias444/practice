@@ -46,7 +46,7 @@ def visualizador_simples(array):
 
     # Cria animação
     anim = animation.FuncAnimation(
-        fig, animar, frames=len(estados), interval=1000, repeat=False, blit=True
+        fig, animar, frames=len(estados), interval=1500, repeat=False, blit=True
     )
     plt.show()
 
